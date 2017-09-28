@@ -1,0 +1,22 @@
+{
+  "name": "polymer2",
+  "version": "1.0.0",
+  "description": "polymer 2 todo's app",
+  "main": "index.html",
+  "author": "Daniel Loibl",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@polymer/polymer": "^2.1.0",
+    "redux": "^3.7.2",
+    "webpack": "^3.6.0"
+  },
+  "devDependencies": {
+    "polymer-cli": "^1.5.5"
+  },
+  "scripts": {
+    "start": "npm run webpack & polymer serve",
+    "build": "polymer build",       
+    "webpack": "webpack -d --watch"
+  } 
+}

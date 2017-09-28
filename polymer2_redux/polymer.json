@@ -1,0 +1,18 @@
+{
+    "entrypoint": "index.html",
+    "shell": "src/todo-app.html",
+    "fragments": [],
+    "sources": [
+     "src/**/*"
+    ],
+    "extraDependencies": [
+      "manifest.json",
+      "node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"
+    ],
+    "lint": {
+      "rules": ["polymer-2"]
+    },
+    "builds": [
+      { "preset": "es6-unbundled" }
+    ]
+  }
