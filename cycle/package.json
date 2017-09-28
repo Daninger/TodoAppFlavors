@@ -1,0 +1,17 @@
+{
+  "name": "cycle",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "cycle-scripts": "^1.0.3"
+  },
+  "dependencies": {
+    "@cycle/dom": "^18.3.0",
+    "@cycle/run": "^3.2.0",
+    "xstream": "^11.0.0"
+  },
+  "scripts": {
+    "start": "cycle-scripts start",
+    "build": "cycle-scripts build"
+  }
+}
